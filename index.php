@@ -67,7 +67,7 @@
 
             <div class="form-group">
                 <label for="comentarios" class="form-label">Comentarios:</label>
-                <textarea class="form-control" id="comentarios" rows="3"></textarea>
+                <textarea class="form-control" id="comentarios" rows="3" name="comentarios"></textarea>
             </div>
             <div class="form-group form-check mt-3 mb-3">
                 <input class="form-check-input" type="checkbox" id="terminos" required>
@@ -88,7 +88,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/javascript.js"></script>
+    <script type="module"  src="js/javascript.js"></script>
 </body>
 
 </html>
